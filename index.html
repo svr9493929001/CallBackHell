@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+const one = document.createElement('h2')
+one.innerText = '1'
+
+const two = document.createElement('h2')
+two.innerText = '2'
+
+const three = document.createElement('h2')
+three.innerText = '3'
+
+const four = document.createElement('h2')
+four.innerText = '4'
+
+const five = document.createElement('h2')
+five.innerText = '5'
+
+const six = document.createElement('h2')
+six.innerText = '6'
+
+const seven = document.createElement('h2')
+seven.innerText = '7'
+
+const eight = document.createElement('h2')
+eight.innerText = '8'
+
+const nine = document.createElement('h2')
+nine.innerText = '9'
+
+const ten = document.createElement('h2')
+ten.innerText = '10'
+
+setTimeout(() => {
+    document.body.append(one);
+    setTimeout(() => {
+        document.body.append(two);
+        setTimeout(() => {
+            document.body.append(three);
+            setTimeout(() => {
+                document.body.append(four);
+                setTimeout(() => {
+                    document.body.append(five);
+                    setTimeout(() => {
+                        document.body.append(six);
+                        setTimeout(() => {
+                            document.body.append(seven);
+                            setTimeout(() => {
+                                document.body.append(eight)
+                                setTimeout(() => {
+                                    document.body.append(nine);
+                                            setTimeout(() => {
+                                                document.body.append(ten);
+                                            }, 1000);
+                                        }, 1000);
+                                    }, 1000);
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
+</script>
+</html>
